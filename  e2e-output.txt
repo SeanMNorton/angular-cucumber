@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "App page",
+    "line": 1,
+    "id": "app-page",
+    "tags": [],
+    "uri": "e2e/src/tests/myfeature.e2e-spec.feature",
+    "elements": [
+      {
+        "id": "app-page;first-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "First scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/src/tests/myfeature.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open app page",
+            "match": {
+              "location": "e2e/src/tests/myfeature.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "app page loads",
+            "match": {
+              "location": "e2e/src/tests/myfeature.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "header \"Welcome to angular-cucumber!\" is displayed",
+            "match": {
+              "location": "e2e/src/tests/myfeature.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
