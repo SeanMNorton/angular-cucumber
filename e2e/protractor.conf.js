@@ -5,9 +5,9 @@ exports.config = {
   ],
   capabilities: {
     'browserName': 'chrome',
-    chromeOptions: {
-      args: [ "--headless", "--disable-gpu" ]
-    }
+    // chromeOptions: {
+    //   args: [ "--headless", "--disable-gpu" ]
+    // }
   },
   directConnect: true,
 

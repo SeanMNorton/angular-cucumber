@@ -48,8 +48,9 @@
               "location": "e2e/src/tests/myfeature.steps.ts:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 5011000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (/Users/jonnorstrom/Dev-Work/angular/angular-cucumber/node_modules/cucumber/lib/user_code_runner.js:81:20)\n    at ontimeout (timers.js:424:11)\n    at tryOnTimeout (timers.js:288:5)\n    at listOnTimeout (timers.js:251:5)\n    at Timer.processTimers (timers.js:211:10)"
             }
           },
           {
@@ -58,11 +59,10 @@
             "line": 6,
             "name": "header \"Welcome to angular-cucumber!\" is displayed",
             "match": {
-              "location": "e2e/src/tests/myfeature.steps.ts:28"
+              "location": "e2e/src/tests/myfeature.steps.ts:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 682000000
+              "status": "skipped"
             }
           },
           {
@@ -72,7 +72,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]

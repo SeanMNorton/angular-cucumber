@@ -17,16 +17,14 @@ Given('I open app page', () => {
 });
 
 When('app page loads', () => {
-  // console.log( browser.ExpectedConditions.visibilityOf(appPage.getTitle()) );
-  return ExpectedConditions.visibilityOf(appPage.getTitle());
-  // return browser.wait(
-  //   ExpectedConditions.visibilityOf(appPage.getTitle()
-  // ), 5000);
+  browser.wait(
+    ExpectedConditions.visibilityOf(appPage.getTitle()
+  ), 5000);
 });
 
 // title passed in from feature file
 Then('header {string} is displayed', (title) => {
-  return appPage.getHeader()
+  return appPage.getHeader().getText()
     .then(text => {
       expect(text).to.have.string(title);
     });
