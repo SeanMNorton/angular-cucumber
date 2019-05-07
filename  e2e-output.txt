@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Form",
+    "line": 1,
+    "id": "form",
+    "tags": [],
+    "uri": "e2e/src/features/form.feature",
+    "elements": [
+      {
+        "id": "form;seeing-the-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Seeing the Form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the app",
+            "match": {
+              "location": "e2e/src/features/form.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "The app page loads",
+            "match": {
+              "location": "e2e/src/features/form.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Todo form is displayed",
+            "match": {
+              "location": "e2e/src/features/form.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
