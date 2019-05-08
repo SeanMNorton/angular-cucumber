@@ -1,8 +1,8 @@
 import { browser, by, element, Key } from 'protractor';
 
 export class AppPage {
-  async navigateTo(path = '/') {
-    await browser.get(browser.baseUrl + path);
+  navigateTo(path = '/') {
+    return browser.get(browser.baseUrl + path);
   }
 
   getActiveElement() {

@@ -22,4 +22,4 @@ Background: The page is loaded
     When I submit the form
     Then "Hello World" is displayed
     When Remove button is clicked
-    Then "Hello World" is not displayed
+    Then The label is not displayed

@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 646000000
+              "duration": 685000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -47,11 +47,11 @@
             "line": 8,
             "name": "The Form is focused",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:12"
+              "location": "e2e/src/steps/form.steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 136000000
+              "duration": 138000000
             }
           },
           {
@@ -85,7 +85,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 272000000
+              "duration": 291000000
             }
           },
           {
@@ -97,8 +97,7 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -107,11 +106,11 @@
             "line": 11,
             "name": "I type 'Hello World' into the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:21"
+              "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -120,7 +119,7 @@
             "line": 12,
             "name": "I submit the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:25"
+              "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
               "status": "passed",
@@ -133,11 +132,11 @@
             "line": 13,
             "name": "The form input is blank",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:29"
+              "location": "e2e/src/steps/form.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 232000000
             }
           },
           {
@@ -147,7 +146,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 213000000
+              "duration": 202000000
             }
           },
           {
@@ -182,8 +182,7 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "passed"
             }
           },
           {
@@ -192,7 +191,7 @@
             "line": 16,
             "name": "I type 'Hello World' into the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:21"
+              "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
               "status": "passed",
@@ -205,7 +204,7 @@
             "line": 17,
             "name": "I submit the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:25"
+              "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
               "status": "passed"
@@ -217,11 +216,11 @@
             "line": 18,
             "name": "\"Hello World\" is displayed",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:35"
+              "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 302000000
+              "duration": 323000000
             }
           },
           {
@@ -231,8 +230,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -255,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 192000000
+              "duration": 198000000
             }
           },
           {
@@ -267,7 +265,8 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -276,11 +275,11 @@
             "line": 21,
             "name": "I type 'Hello World' into the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:21"
+              "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -289,7 +288,7 @@
             "line": 22,
             "name": "I submit the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:25"
+              "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
               "status": "passed"
@@ -301,11 +300,11 @@
             "line": 23,
             "name": "\"Hello World\" is displayed",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:35"
+              "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 344000000
+              "duration": 374000000
             }
           },
           {
@@ -314,25 +313,23 @@
             "line": 24,
             "name": "Remove button is clicked",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:47"
+              "location": "e2e/src/steps/form.steps.ts:49"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 25,
-            "name": "\"Hello World\" is not displayed",
+            "name": "The label is not displayed",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:52"
+              "location": "e2e/src/steps/form.steps.ts:53"
             },
             "result": {
-              "status": "failed",
-              "duration": 1153000000,
-              "error_message": "StaleElementReferenceError: stale element reference: element is not attached to the page document\n  (Session info: chrome=74.0.3729.131)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.4 x86_64)\n    at Object.checkLegacyResponse (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.getText()\n    at Driver.schedule (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElement.schedule_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElement.getText (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2277:17)\n    at actionFn (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:461:65)\n    at ManagedPromise.invokeCallback_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as getText] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:91:29)\n    at World.<anonymous> (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/steps/form.steps.ts:54:50)"
+              "status": "passed",
+              "duration": 191000000
             }
           },
           {
@@ -375,7 +372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217000000
+              "duration": 209000000
             }
           },
           {
@@ -388,7 +385,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -401,7 +398,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 133000000
             }
           },
           {
@@ -411,7 +408,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]

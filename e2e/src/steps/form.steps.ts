@@ -1,6 +1,12 @@
 import { AppPage } from '../app.po';
 import { Given, When, Then, After } from 'cucumber';
-import { browser, element, by, ExpectedConditions as EC, protractor } from 'protractor';
+import {
+  ExpectedConditions as EC,
+  browser,
+  element,
+  by,
+  $
+} from 'protractor';
 
 import * as chai from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
@@ -33,11 +39,7 @@ Then('The form input is blank', () => {
 });
 
 Then('{string} is displayed', (text) => {
-  browser.wait(
-    protractor.ExpectedConditions.visibilityOf(
-      element(by.css('label.todo-title'))
-    ), 500
-  );
+  browser.wait(EC.visibilityOf($('label.todo-title')));
 
   return element(by.css('label.todo-title')).getText().then(value => {
     return expect(value).to.equal(text);
@@ -45,19 +47,13 @@ Then('{string} is displayed', (text) => {
 });
 
 When('Remove button is clicked', () => {
-  browser.driver.sleep(1000)
   element(by.css('button.destroy')).click();
-})
+});
 
-Then('{string} is not displayed', (text) => {
-  browser.driver.sleep(1000)
-  return element.all(by.css('label.todo-title')).getText().then((value) => {
-    return expect(value).to.equal(['']);
-  })
+Then('The label is not displayed', () => {
+  browser.wait(EC.invisibilityOf($('label.todo-title')))
 
-  // browser.driver.sleep(1000)
-
-  // return element.all(by.css('label.todo-title')).getText().then((value) => {
-  //   return expect(value).to.equal(['']);
-  // })
-})
+  return element.all(by.css('label.todo-title')).count().then((value) => {
+    return expect(value).to.equal(0);
+  });
+});
