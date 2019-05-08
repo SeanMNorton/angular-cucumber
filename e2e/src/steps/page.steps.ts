@@ -16,8 +16,8 @@ const appPage: AppPage = new AppPage();
 browser.waitForAngularEnabled(false);
 
 
-Given('I open the app', () => {
-  appPage.navigateTo();
+Given('I open the app', async () => {
+  await appPage.navigateTo();
 });
 
 When('The app page loads', () => {

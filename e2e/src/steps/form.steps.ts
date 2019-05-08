@@ -43,3 +43,21 @@ Then('{string} is displayed', (text) => {
     return expect(value).to.equal(text);
   });
 });
+
+When('Remove button is clicked', () => {
+  browser.driver.sleep(1000)
+  element(by.css('button.destroy')).click();
+})
+
+Then('{string} is not displayed', (text) => {
+  browser.driver.sleep(1000)
+  return element.all(by.css('label.todo-title')).getText().then((value) => {
+    return expect(value).to.equal(['']);
+  })
+
+  // browser.driver.sleep(1000)
+
+  // return element.all(by.css('label.todo-title')).getText().then((value) => {
+  //   return expect(value).to.equal(['']);
+  // })
+})

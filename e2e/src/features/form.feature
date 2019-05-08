@@ -16,3 +16,10 @@ Background: The page is loaded
     Given I type 'Hello World' into the form
     When I submit the form
     Then "Hello World" is displayed
+  
+  Scenario: Remove button is clicked
+    Given I type 'Hello World' into the form
+    When I submit the form
+    Then "Hello World" is displayed
+    When Remove button is clicked
+    Then "Hello World" is not displayed
