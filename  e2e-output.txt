@@ -21,7 +21,7 @@
             "line": 4,
             "name": "I open the app",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:20"
+              "location": "e2e/src/steps/page.steps.ts:19"
             },
             "result": {
               "status": "passed",
@@ -34,11 +34,11 @@
             "line": 5,
             "name": "The app page loads",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:24"
+              "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -47,11 +47,11 @@
             "line": 8,
             "name": "The Form is focused",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:28"
+              "location": "e2e/src/steps/form.steps.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 498000000
+              "duration": 482000000
             }
           },
           {
@@ -80,10 +80,11 @@
             "line": 4,
             "name": "I open the app",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:20"
+              "location": "e2e/src/steps/page.steps.ts:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -92,7 +93,7 @@
             "line": 5,
             "name": "The app page loads",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:24"
+              "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
               "status": "passed"
@@ -104,19 +105,7 @@
             "line": 11,
             "name": "I type 'Hello World' into the form",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:14"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "I submit the form",
-            "match": {
-              "location": "e2e/src/steps/form.steps.ts:18"
+              "location": "e2e/src/steps/form.steps.ts:21"
             },
             "result": {
               "status": "passed",
@@ -125,15 +114,27 @@
           },
           {
             "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I submit the form",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Then ",
             "line": 13,
             "name": "The form input is blank",
             "match": {
-              "location": "e2e/src/steps/form.steps.ts:22"
+              "location": "e2e/src/steps/form.steps.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 292000000
             }
           },
           {
@@ -144,6 +145,89 @@
             },
             "result": {
               "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "form;new-todo-is-displayed",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "New todo is displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the app",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "The app page loads",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:23"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I type 'Hello World' into the form",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I submit the form",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "\"Hello World\" is displayed",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -172,11 +256,10 @@
             "line": 4,
             "name": "I open the app",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:20"
+              "location": "e2e/src/steps/page.steps.ts:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -185,7 +268,7 @@
             "line": 5,
             "name": "The app page loads",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:24"
+              "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
               "status": "passed"
@@ -197,11 +280,11 @@
             "line": 6,
             "name": "Todo form is displayed",
             "match": {
-              "location": "e2e/src/steps/page.steps.ts:28"
+              "location": "e2e/src/steps/page.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 182000000
+              "duration": 177000000
             }
           },
           {

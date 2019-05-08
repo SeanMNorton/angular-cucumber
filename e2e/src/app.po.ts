@@ -16,4 +16,8 @@ export class AppPage {
   submitForm() {
     element(by.tagName('form')).submit();
   }
+
+  getFirstTodo() {
+    return element(by.class('todoList'));
+  }
 }

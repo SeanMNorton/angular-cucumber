@@ -1,6 +1,6 @@
 import { AppPage } from '../app.po';
-import { Given, When, Then} from 'cucumber';
-import { browser } from 'protractor';
+import { Given, When, Then, After } from 'cucumber';
+import { browser, element, by, ExpectedConditions as EC } from 'protractor';
 
 import * as chai from 'chai';
 import * as chaiAsPromised from 'chai-as-promised';
@@ -8,8 +8,15 @@ import * as chaiAsPromised from 'chai-as-promised';
 const expect = chai.use(chaiAsPromised).expect;
 
 const appPage: AppPage = new AppPage();
-browser.waitForAngularEnabled(false);
 
+Then('The Form is focused', () => {
+  const activeElement = appPage.getActiveElement().getAttribute('tagName');
+  const compareElement = appPage.getTodoInput().getAttribute('tagName');
+
+  return Promise.all([compareElement, activeElement]).then((tags) => {
+    expect(tags[0]).to.equal(tags[1]);
+  });
+});
 
 Given('I type {string} into the form', (text) => {
   appPage.getTodoInput().sendKeys(text);
@@ -20,16 +27,14 @@ When('I submit the form', () => {
 });
 
 Then('The form input is blank', () => {
- return appPage.getTodoInput().getAttribute('value').then((text) => {
-  expect(text).to.equal('');
- });
+  return appPage.getTodoInput().getAttribute('value').then((text) => {
+    expect(text).to.equal('');
+  });
 });
 
-Then('The Form is focused', () => {
-  const activeElement = appPage.getActiveElement().getAttribute('tagName');
-  const compareElement = appPage.getTodoInput().getAttribute('tagName');
-
-  return Promise.all([compareElement, activeElement]).then((tags) => {
-    expect(tags[0]).to.equal(tags[1]);
+Then('{string} is displayed', (text) => {
+  browser.driver.sleep(500);
+  return element(by.css('label.todo-title')).getText().then(value => {
+    return expect(text).to.equal(value);
   });
 });

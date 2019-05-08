@@ -11,3 +11,8 @@ Background: The page is loaded
     Given I type 'Hello World' into the form
     When I submit the form
     Then The form input is blank
+  
+  Scenario: New todo is displayed
+    Given I type 'Hello World' into the form
+    When I submit the form
+    Then "Hello World" is displayed

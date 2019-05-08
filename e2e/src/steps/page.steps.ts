@@ -5,7 +5,6 @@ import {
   browser,
   element,
   by,
-  Key,
 } from 'protractor';
 
 import * as chai from 'chai';
