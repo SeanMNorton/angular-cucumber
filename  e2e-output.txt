@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 482000000
+              "duration": 546000000
             }
           },
           {
@@ -61,7 +61,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -96,7 +97,8 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -108,8 +110,7 @@
               "location": "e2e/src/steps/form.steps.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -121,7 +122,8 @@
               "location": "e2e/src/steps/form.steps.ts:25"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -134,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 305000000
             }
           },
           {
@@ -144,7 +146,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -202,8 +205,7 @@
               "location": "e2e/src/steps/form.steps.ts:25"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -215,8 +217,9 @@
               "location": "e2e/src/steps/form.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 533000000
+              "status": "failed",
+              "duration": 328000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -Hello World\n    +butter\n\n    at /Users/norton/Projects/angular-cucumber/e2e/src/steps/form.steps.ts:43:29\n    at elementArrayFinder_.then (/Users/norton/Projects/angular-cucumber/node_modules/protractor/built/element.js:804:32)\n    at ManagedPromise.invokeCallback_ (/Users/norton/Projects/angular-cucumber/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/norton/Projects/angular-cucumber/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/norton/Projects/angular-cucumber/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/norton/Projects/angular-cucumber/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/norton/Projects/angular-cucumber/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -226,8 +229,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -271,7 +273,8 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -284,7 +287,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 177000000
+              "duration": 173000000
             }
           },
           {
