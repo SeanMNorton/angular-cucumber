@@ -8,7 +8,158 @@
     "uri": "e2e/src/features/form.feature",
     "elements": [
       {
-        "id": "form;seeing-the-form",
+        "id": "form;form-is-focused",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Form is focused",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the app",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "The app page loads",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The Form is focused",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 498000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "form;form-input-resets-after-submit",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Form input resets after submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the app",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "The app page loads",
+            "match": {
+              "location": "e2e/src/steps/page.steps.ts:24"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I type 'Hello World' into the form",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I submit the form",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The form input is blank",
+            "match": {
+              "location": "e2e/src/steps/form.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Page",
+    "line": 1,
+    "id": "page",
+    "tags": [],
+    "uri": "e2e/src/features/page.feature",
+    "elements": [
+      {
+        "id": "page;seeing-the-form",
         "keyword": "Scenario",
         "line": 3,
         "name": "Seeing the Form",
@@ -21,11 +172,11 @@
             "line": 4,
             "name": "I open the app",
             "match": {
-              "location": "e2e/src/features/form.steps.ts:20"
+              "location": "e2e/src/steps/page.steps.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           },
           {
@@ -34,11 +185,10 @@
             "line": 5,
             "name": "The app page loads",
             "match": {
-              "location": "e2e/src/features/form.steps.ts:24"
+              "location": "e2e/src/steps/page.steps.ts:24"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -47,70 +197,11 @@
             "line": 6,
             "name": "Todo form is displayed",
             "match": {
-              "location": "e2e/src/features/form.steps.ts:28"
+              "location": "e2e/src/steps/page.steps.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 880000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "form;form-is-focused",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "Form is focused",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 9,
-            "name": "I open the app",
-            "match": {
-              "location": "e2e/src/features/form.steps.ts:20"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "The app page loads",
-            "match": {
-              "location": "e2e/src/features/form.steps.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "The Form is focused",
-            "match": {
-              "location": "e2e/src/features/form.steps.ts:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 390000000
+              "duration": 182000000
             }
           },
           {

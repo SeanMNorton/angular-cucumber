@@ -1,4 +1,4 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element, Key } from 'protractor';
 
 export class AppPage {
   navigateTo(path = '/') {
@@ -6,10 +6,14 @@ export class AppPage {
   }
 
   getActiveElement() {
-    return browser.driver.switchTo().activeElement()
+    return browser.driver.switchTo().activeElement();
   }
 
   getTodoInput() {
-    return element(by.tagName('input'))
+    return element(by.tagName('input'));
+  }
+
+  submitForm() {
+    element(by.tagName('form')).submit();
   }
 }
