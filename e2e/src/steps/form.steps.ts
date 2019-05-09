@@ -1,4 +1,4 @@
-import { AppPage } from '../app.po';
+import { TodoPage } from '../app.po';
 import { Given, When, Then, After } from 'cucumber';
 import {
   ExpectedConditions as EC,
@@ -13,11 +13,11 @@ import * as chaiAsPromised from 'chai-as-promised';
 
 const expect = chai.use(chaiAsPromised).expect;
 
-const appPage: AppPage = new AppPage();
+const todoPage: TodoPage = new TodoPage();
 
 Then('The Form is focused', () => {
-  const activeElement = appPage.getActiveElement().getAttribute('tagName');
-  const compareElement = appPage.getTodoInput().getAttribute('tagName');
+  const activeElement = todoPage.getActiveElement().getAttribute('tagName');
+  const compareElement = todoPage.getTodoInput().getAttribute('tagName');
 
   return Promise.all([compareElement, activeElement]).then((tags) => {
     expect(tags[0]).to.equal(tags[1]);
@@ -25,15 +25,15 @@ Then('The Form is focused', () => {
 });
 
 Given('I type {string} into the form', (text) => {
-  appPage.getTodoInput().sendKeys(text);
+  todoPage.getTodoInput().sendKeys(text);
 });
 
 When('I submit the form', () => {
-  appPage.submitForm();
+  todoPage.submitForm();
 });
 
 Then('The form input is blank', () => {
-  return appPage.getTodoInput().getAttribute('value').then((text) => {
+  return todoPage.getTodoInput().getAttribute('value').then((text) => {
     expect(text).to.equal('');
   });
 });

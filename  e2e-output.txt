@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1007000000
+              "duration": 764000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 4000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 162000000
             }
           },
           {
@@ -85,7 +85,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 314000000
+              "duration": 353000000
             }
           },
           {
@@ -97,8 +97,7 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -123,7 +122,8 @@
               "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -136,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 274000000
+              "duration": 228000000
             }
           },
           {
@@ -146,16 +146,17 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
       },
       {
-        "id": "form;new-todo-is-displayed",
+        "id": "form;inputing-a-todo",
         "keyword": "Scenario",
-        "line": 15,
-        "name": "New todo is displayed",
+        "line": 27,
+        "name": "Inputing a Todo",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -169,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 267000000
+              "duration": 252000000
             }
           },
           {
@@ -188,20 +189,19 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 16,
-            "name": "I type 'Hello World' into the form",
+            "line": 21,
+            "name": "I type 'hello world' into the form",
             "match": {
               "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 17,
+            "line": 22,
             "name": "I submit the form",
             "match": {
               "location": "e2e/src/steps/form.steps.ts:31"
@@ -214,14 +214,14 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 18,
-            "name": "\"Hello World\" is displayed",
+            "line": 23,
+            "name": "'hello world' is displayed",
             "match": {
               "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 416000000
+              "duration": 317000000
             }
           },
           {
@@ -237,10 +237,10 @@
         ]
       },
       {
-        "id": "form;remove-button-is-clicked",
+        "id": "form;inputing-a-todo",
         "keyword": "Scenario",
-        "line": 20,
-        "name": "Remove button is clicked",
+        "line": 28,
+        "name": "Inputing a Todo",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -254,7 +254,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 236000000
             }
           },
           {
@@ -266,14 +266,15 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 21,
-            "name": "I type 'Hello World' into the form",
+            "name": "I type 'as;djqwer42' into the form",
             "match": {
               "location": "e2e/src/steps/form.steps.ts:27"
             },
@@ -299,38 +300,13 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 23,
-            "name": "\"Hello World\" is displayed",
+            "name": "'as;djqwer42' is displayed",
             "match": {
               "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 355000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 24,
-            "name": "Remove button is clicked",
-            "match": {
-              "location": "e2e/src/steps/form.steps.ts:49"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 25,
-            "name": "The label is not displayed",
-            "match": {
-              "location": "e2e/src/steps/form.steps.ts:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 218000000
+              "duration": 342000000
             }
           },
           {
@@ -373,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 237000000
             }
           },
           {
@@ -386,7 +362,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -399,7 +375,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 110000000
+              "duration": 107000000
             }
           },
           {

@@ -1,4 +1,4 @@
-import { AppPage } from '../app.po';
+import { TodoPage } from '../app.po';
 import { Given, When, Then } from 'cucumber';
 import {
   ExpectedConditions as EC,
@@ -12,12 +12,12 @@ import * as chaiAsPromised from 'chai-as-promised';
 
 const expect = chai.use(chaiAsPromised).expect;
 
-const appPage: AppPage = new AppPage();
+const todoPage: TodoPage = new TodoPage();
 browser.waitForAngularEnabled(false);
 
 
 Given('I open the app', async () => {
-  await appPage.navigateTo();
+  await todoPage.navigateTo();
 });
 
 When('The app page loads', () => {

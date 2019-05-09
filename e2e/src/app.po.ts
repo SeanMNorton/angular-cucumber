@@ -1,6 +1,6 @@
-import { browser, by, element, Key } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class AppPage {
+export class TodoPage {
   navigateTo(path = '/') {
     return browser.get(browser.baseUrl + path);
   }
