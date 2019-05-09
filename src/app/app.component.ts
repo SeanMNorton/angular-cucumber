@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {TodoDataService} from './todo-data.service'
-import {Todo} from './todo'
+import { TodoDataService } from './todo-data.service';
+import { Todo } from './todo';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +10,9 @@ import {Todo} from './todo'
 })
 export class AppComponent {
   title = 'note-taking';
-  
+
   constructor(private todoDataService: TodoDataService) {
-  };
+  }
 
   newTodo: Todo = new Todo();
 
