@@ -14,7 +14,7 @@ export class TodoPage {
   }
 
   submitForm() {
-    element(by.tagName('form')).submit();
+    element(by.tagName('form')).element(by.tagName('button')).click()
   }
 
   getFirstTodo() {

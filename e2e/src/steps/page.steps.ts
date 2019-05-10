@@ -21,7 +21,7 @@ Given('I open the app', async () => {
 });
 
 When('The app page loads', () => {
-  browser.wait(EC.visibilityOf(element(by.tagName('title'))), 5000);
+  browser.wait(EC.visibilityOf(element(by.tagName('title'))));
 });
 
 Then('Todo form is displayed', () => {

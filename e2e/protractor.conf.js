@@ -6,9 +6,14 @@ exports.config = {
   specs: [
     './src/**/*.feature'
   ],
-  capabilities: {
-    'browserName': 'chrome'
-  },
+  multiCapabilities: [
+    {
+      'browserName': 'firefox',
+    },
+    {
+      'browserName': 'chrome',
+    },
+  ],
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
   framework: 'custom',

@@ -1,6 +1,6 @@
 <section class="todoapp">
     <header class="header">
-      <h1>Todos</h1>
+      <h1 id="todo-header">Todos</h1>
       <form (submit)="addTodo()" id="superForm">
         <input class="new-todo" name="title" placeholder="What needs to be done?" autofocus="" [(ngModel)]="newTodo.title">
         <button type="submit">Submit</button>

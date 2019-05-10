@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 756000000
+              "duration": 2046000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 6000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 179000000
             }
           },
           {
@@ -61,7 +61,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 5000000
             }
           }
         ]
@@ -84,7 +85,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 1665000000
             }
           },
           {
@@ -97,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -110,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -122,7 +123,8 @@
               "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -134,8 +136,9 @@
               "location": "e2e/src/steps/form.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 204000000
+              "status": "failed",
+              "duration": 247000000,
+              "error_message": "UnknownCommandError: POST /session/d0293dbf-4feb-984e-bf25-4706c37a1c93/element/9f194b5d-a36d-7345-8fc5-b674cf50f5c8/submit did not match a known command\n    at Object.throwDecodedError (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/error.js:514:15)\n    at parseHttpResponse (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:519:13)\n    at doSend.then.response (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.submit()\n    at Driver.schedule (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElement.schedule_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElement.submit (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2338:17)\n    at actionFn (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:461:65)\n    at ManagedPromise.invokeCallback_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:831:22)\n    at TodoPage.submitForm (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/app.po.ts:17:33)\n    at World.<anonymous> (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/steps/form.steps.ts:32:12)"
             }
           },
           {
@@ -168,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 3202000000
             }
           },
           {
@@ -193,7 +196,8 @@
               "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 4000000
             }
           },
           {
@@ -218,8 +222,9 @@
               "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 337000000
+              "status": "failed",
+              "duration": 405000000,
+              "error_message": "UnknownCommandError: POST /session/d0293dbf-4feb-984e-bf25-4706c37a1c93/element/bfc82ccd-1f77-fe49-84b4-ee4c6408f5be/submit did not match a known command\n    at Object.throwDecodedError (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/error.js:514:15)\n    at parseHttpResponse (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:519:13)\n    at doSend.then.response (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.submit()\n    at Driver.schedule (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElement.schedule_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElement.submit (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2338:17)\n    at actionFn (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:461:65)\n    at ManagedPromise.invokeCallback_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:831:22)\n    at TodoPage.submitForm (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/app.po.ts:17:33)\n    at World.<anonymous> (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/steps/form.steps.ts:32:12)"
             }
           },
           {
@@ -229,8 +234,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -253,7 +257,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248000000
+              "duration": 2371000000
             }
           },
           {
@@ -265,7 +269,8 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
@@ -277,7 +282,8 @@
               "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -301,8 +307,9 @@
               "location": "e2e/src/steps/form.steps.ts:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 349000000
+              "status": "failed",
+              "duration": 190000000,
+              "error_message": "UnknownCommandError: POST /session/d0293dbf-4feb-984e-bf25-4706c37a1c93/element/250ac7b0-dbbf-4543-bb6c-b87ed34f8d3f/submit did not match a known command\n    at Object.throwDecodedError (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/error.js:514:15)\n    at parseHttpResponse (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:519:13)\n    at doSend.then.response (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebElement.submit()\n    at Driver.schedule (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElement.schedule_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElement.submit (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/webdriver.js:2338:17)\n    at actionFn (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:89:44)\n    at Array.map (<anonymous>)\n    at actionResults.getWebElements.then (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:461:65)\n    at ManagedPromise.invokeCallback_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)Error\n    at ElementArrayFinder.applyAction_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as submit] (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:831:22)\n    at TodoPage.submitForm (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/app.po.ts:17:33)\n    at World.<anonymous> (/Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/steps/form.steps.ts:32:12)"
             }
           },
           {
@@ -312,7 +319,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -345,7 +353,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 1542000000
             }
           },
           {
@@ -358,7 +366,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -370,7 +378,8 @@
               "location": "e2e/src/steps/nav.steps.ts:21"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -383,7 +392,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 615000000
             }
           },
           {
@@ -393,7 +402,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -416,7 +426,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 767000000
             }
           },
           {
@@ -429,7 +439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           },
           {
@@ -438,10 +448,11 @@
             "line": 12,
             "name": "I click the Home link",
             "match": {
-              "location": "e2e/src/steps/nav.steps.ts:32"
+              "location": "e2e/src/steps/nav.steps.ts:31"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
@@ -450,11 +461,11 @@
             "line": 13,
             "name": "I am on the Home page",
             "match": {
-              "location": "e2e/src/steps/nav.steps.ts:36"
+              "location": "e2e/src/steps/nav.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 231000000
+              "duration": 465000000
             }
           },
           {
@@ -465,7 +476,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 6000000
             }
           }
         ]
@@ -498,7 +509,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248000000
+              "duration": 1093000000
             }
           },
           {
@@ -524,7 +535,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 139000000
+              "duration": 108000000
             }
           },
           {

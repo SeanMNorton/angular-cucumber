@@ -29,7 +29,7 @@ Given('I type {string} into the form', (text) => {
 });
 
 When('I submit the form', () => {
-  todoPage.submitForm();
+  todoPage.submitForm();        
 });
 
 Then('The form input is blank', () => {

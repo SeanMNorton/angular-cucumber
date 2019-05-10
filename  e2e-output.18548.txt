@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 756000000
+              "duration": 1609000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 170000000
             }
           },
           {
@@ -61,7 +61,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 4000000
             }
           }
         ]
@@ -84,7 +85,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 1415000000
             }
           },
           {
@@ -134,8 +135,9 @@
               "location": "e2e/src/steps/form.steps.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 204000000
+              "status": "failed",
+              "duration": 270000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -Hello World\n\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/e2e/src/steps/form.steps.ts:37:21\n    at elementArrayFinder_.then (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/protractor/built/element.js:804:32)\n    at ManagedPromise.invokeCallback_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/jonnorstrom/Dev-Work/angular/note-taking/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -145,7 +147,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 3000000
             }
           }
         ]
@@ -168,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 2122000000
             }
           },
           {
@@ -180,8 +183,7 @@
               "location": "e2e/src/steps/page.steps.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -219,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 337000000
+              "duration": 1203000000
             }
           },
           {
@@ -230,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           }
         ]
@@ -253,7 +255,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248000000
+              "duration": 2849000000
             }
           },
           {
@@ -277,7 +279,8 @@
               "location": "e2e/src/steps/form.steps.ts:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -289,7 +292,8 @@
               "location": "e2e/src/steps/form.steps.ts:31"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -302,7 +306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 349000000
+              "duration": 977000000
             }
           },
           {
@@ -312,7 +316,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -345,7 +350,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 1126000000
             }
           },
           {
@@ -383,7 +388,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 497000000
             }
           },
           {
@@ -416,7 +421,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 962000000
             }
           },
           {
@@ -438,10 +443,11 @@
             "line": 12,
             "name": "I click the Home link",
             "match": {
-              "location": "e2e/src/steps/nav.steps.ts:32"
+              "location": "e2e/src/steps/nav.steps.ts:31"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -450,11 +456,11 @@
             "line": 13,
             "name": "I am on the Home page",
             "match": {
-              "location": "e2e/src/steps/nav.steps.ts:36"
+              "location": "e2e/src/steps/nav.steps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 231000000
+              "duration": 479000000
             }
           },
           {
@@ -464,8 +470,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -498,7 +503,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248000000
+              "duration": 1189000000
             }
           },
           {
@@ -524,7 +529,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 139000000
+              "duration": 210000000
             }
           },
           {
@@ -534,7 +539,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
