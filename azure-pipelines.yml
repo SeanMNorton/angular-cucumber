@@ -24,4 +24,4 @@ steps:
   displayName: 'run unit tests'
   inputs: 
     command: custom
-    customCommand: 'ng test -- --watch=false --code-coverage'
+    customCommand: 'npm run test -- --watch=false --code-coverage'
