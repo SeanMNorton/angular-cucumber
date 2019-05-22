@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2019-05-22T17:01:53" id="0" hostname="DSWC02YD06VJHD4" tests="0" errors="1" failures="0" time="0">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <system-out>
+    <![CDATA[Browser {
+  id: '47937173',
+  fullName: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) ' +
+    'AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 ' +
+    'Safari/538.1',
+  name: 'PhantomJS 2.1.1 (Mac OS X 0.0.0)',
+  lastResult: [BrowserResult],
+  disconnectsCount: 0,
+  activeSockets: [Array],
+  noActivityTimeout: 30000,
+  collection: [BrowserCollection],
+  emitter: [Server],
+  socket: [Socket],
+  timer: [Object],
+  disconnectDelay: 2000,
+  log: [Logger],
+  noActivityTimeoutId: null,
+  pendingDisconnect: null,
+  state: 'CONNECTED'
+} ERROR
+  {
+    "message": "TypeError: pre,template,textarea,script,style is not iterable!\nat http://localhost:9876/_karma_webpack_/polyfills.js:931:83",
+    "str": "TypeError: pre,template,textarea,script,style is not iterable!\nat http://localhost:9876/_karma_webpack_/polyfills.js:931:83"
+  }
+,Browser {
+  id: '13803216',
+  fullName: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) ' +
+    'AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 ' +
+    'Safari/538.1',
+  name: 'PhantomJS 2.1.1 (Mac OS X 0.0.0)',
+  lastResult: [BrowserResult],
+  disconnectsCount: 0,
+  activeSockets: [Array],
+  noActivityTimeout: 30000,
+  collection: [BrowserCollection],
+  emitter: [Server],
+  socket: [Socket],
+  timer: [Object],
+  disconnectDelay: 2000,
+  log: [Logger],
+  noActivityTimeoutId: null,
+  pendingDisconnect: null,
+  state: 'CONNECTED'
+} ERROR
+  {
+    "message": "TypeError: pre,template,textarea,script,style is not iterable!\nat http://localhost:9876/_karma_webpack_/polyfills.js:931:83",
+    "str": "TypeError: pre,template,textarea,script,style is not iterable!\nat http://localhost:9876/_karma_webpack_/polyfills.js:931:83"
+  }
+,Browser {
+  id: '47937173',
+  fullName: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) ' +
+    'AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 ' +
+    'Safari/538.1',
+  name: 'PhantomJS 2.1.1 (Mac OS X 0.0.0)',
+  lastResult: [BrowserResult],
+  disconnectsCount: 1,
+  activeSockets: [Array],
+  noActivityTimeout: 30000,
+  collection: [BrowserCollection],
+  emitter: [Server],
+  socket: [Socket],
+  timer: [Object],
+  disconnectDelay: 2000,
+  log: [Logger],
+  noActivityTimeoutId: Timeout {
+    _idleTimeout: 30000,
+    _idlePrev: null,
+    _idleNext: null,
+    _idleStart: 21513,
+    _onTimeout: [Function],
+    _timerArgs: undefined,
+    _repeat: null,
+    _destroyed: false,
+    [Symbol(refed)]: true,
+    [Symbol(asyncId)]: 43646,
+    [Symbol(triggerId)]: 43644
+  },
+  pendingDisconnect: null,
+  state: 'DISCONNECTED'
+} ERROR
+  Disconnected, because no message in 30000 ms.
+,Browser {
+  id: '13803216',
+  fullName: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) ' +
+    'AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 ' +
+    'Safari/538.1',
+  name: 'PhantomJS 2.1.1 (Mac OS X 0.0.0)',
+  lastResult: [BrowserResult],
+  disconnectsCount: 1,
+  activeSockets: [Array],
+  noActivityTimeout: 30000,
+  collection: [BrowserCollection],
+  emitter: [Server],
+  socket: [Socket],
+  timer: [Object],
+  disconnectDelay: 2000,
+  log: [Logger],
+  noActivityTimeoutId: Timeout {
+    _idleTimeout: 30000,
+    _idlePrev: null,
+    _idleNext: null,
+    _idleStart: 21514,
+    _onTimeout: [Function],
+    _timerArgs: undefined,
+    _repeat: null,
+    _destroyed: false,
+    [Symbol(refed)]: true,
+    [Symbol(asyncId)]: 43655,
+    [Symbol(triggerId)]: 43652
+  },
+  pendingDisconnect: null,
+  state: 'DISCONNECTED'
+} ERROR
+  Disconnected, because no message in 30000 ms.
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

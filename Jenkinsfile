@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh './gradlew check'
+                sh 'npm test'
             }
         }
     }
     post {
         always {
-            junit 'build/reports/**/*.xml'
+            junit '*.xml'
         }
     }
 }

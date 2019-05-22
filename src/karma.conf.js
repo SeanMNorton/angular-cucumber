@@ -4,29 +4,38 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
+    browsers: ['PhantomJS', 'PhantomJS_custom'],
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
+
+    customLaunchers: {
+      'PhantomJS_custom': {
+        base: 'PhantomJS',
+        options: {
+          windowName: 'my-window',
+          settings: {
+            webSecurityEnabled: false
+          },
+        },
+        flags: ['--load-images=true'],
+        debug: true
+      }
+    },
+    phantomjsLauncher: {
+      exitOnResourceError: true
+    },
+
     plugins: [
       require('karma-jasmine'),
-      require('karma-chrome-launcher'),
+      require('karma-phantomjs-launcher'),
       require('karma-jasmine-html-reporter'),
-      require('karma-coverage-istanbul-reporter'),
-      require('@angular-devkit/build-angular/plugins/karma')
+      require('@angular-devkit/build-angular/plugins/karma'),
+      'karma-junit-reporter'
     ],
-    client: {
-      clearContext: false // leave Jasmine Spec Runner output visible in browser
+    reporters: ['progress', 'junit'],
+    junitReporter: {
+      outputDir: '../', // results will be saved as $outputDir/$browserName.xml
+      // outputFile: undefined, // if included, results will be saved as $outputDir/$browserName/$outputFile
     },
-    coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../coverage/angular-cucumber'),
-      reports: ['html', 'lcovonly', 'text-summary'],
-      fixWebpackSourcePaths: true
-    },
-    reporters: ['progress', 'kjhtml'],
-    port: 9876,
-    colors: true,
-    logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: false,
-    restartOnFileChange: true
+
   });
 };
