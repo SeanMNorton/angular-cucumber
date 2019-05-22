@@ -1,9 +1,10 @@
 pipeline {
-    agent { docker { image 'node:7-alpine' } }
+    agent { docker { image 'node:11-alpine' } }
+    tools {nodejs "node"}
     stages {
         stage('build') {
             steps {
-                sh 'npm --version'
+                sh 'npm --version'git
                 sh 'npm install'
                 sh 'npm run build'
             }
