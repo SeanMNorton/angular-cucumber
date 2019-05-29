@@ -24,7 +24,8 @@ steps:
     npm run e2e
   displayName: 'UI tests'
 
-- task: PublishTestResults@2
+- task: VSTest@2
   inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
+    testSelector: 'testRun'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    uiTests: true
